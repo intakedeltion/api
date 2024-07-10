@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  font-family: Inter;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background-color: #F4F8FB;
+}
+
+/* MuiDatagrid styling */
+.MuiDataGrid-cell {
+  background-color: #ffffff;
+}
+
+.MuiDataGrid-footerContainer {
+  background-color: #ffffff;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+  background-color: rgb(243 244 246);
+}
